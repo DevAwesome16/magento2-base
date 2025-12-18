@@ -1,0 +1,22 @@
+{
+    "name": "avenyra/module-base",
+    "description": "Avenyra Base Module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Avenyra\\Base\\": ""
+        }
+    }
+}
+
